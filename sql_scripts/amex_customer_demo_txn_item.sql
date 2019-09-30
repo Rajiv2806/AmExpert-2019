@@ -1,5 +1,6 @@
 select txn.customer_id
        ,txn.date_of_txn
+       ,txn.item_id
        ,item.brand
        ,item.brand_type
        ,item.category
